@@ -14,9 +14,6 @@ griff.size = function(thing){
 
 griff.size(arrayOne)
 
-
-
-
 //is equal?
 griff.isEqual = function(a, b){
   if(a === b){
@@ -31,7 +28,7 @@ griff.isEqual(two, three)
 griff.isEqual(two, dos)
 
 
-//empty?
+//empty
 
 griff.emptyItIs = function(thing){
   if(thing == null){
@@ -40,8 +37,8 @@ griff.emptyItIs = function(thing){
     return false && console.log("WE'VE GOT SURVIVORS!!!");
   }
 };
-griff.emptyItIs(arrayTwo)
-griff.emptyItIs(arrayOne)
+griff.emptyItIs(arrayTwo);
+griff.emptyItIs(arrayOne) ; //why doesn't this work?
 
 
 
@@ -56,3 +53,5 @@ griff.isItInThere = function(object, thing){
     }
   })
 };
+griff.isItInThere(arrayOne, "GHOST");
+griff.isItInThere(arrayOne, "bunnywabbit");
