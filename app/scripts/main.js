@@ -47,7 +47,7 @@ griff.emptyItIs(arrayOne) ; //why doesn't this work?
 griff.isItInThere = function(object, thing){
   object.forEach(function(otherThing){
     if(thing === otherThing){
-      console.log(otherThing)
+      console.log("found:" + otherThing)
     }else{
       console.log("These aren't the droids you are looking for.")
     }
