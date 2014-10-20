@@ -12,7 +12,7 @@ var dos = 2;
 
 | name | description |
 |------|-------------|
-| griff.size | checks the length of an array/item |
-| griff.isEqual | checks to see if to parameters are equal |
-| griff.emptyItIs | checks to see if an array is empty |
-| griff.isItInThere | check to see if an array contains the specifies parameter |
+| griff.size(array/item) | checks the length of an array/item |
+| griff.isEqual(a, b) | checks to see if to parameters are equal |
+| griff.emptyItIs(array) | checks to see if an array is empty |
+| griff.isItInThere(array) | check to see if an array contains the specifies parameter |
