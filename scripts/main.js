@@ -1,3 +1,5 @@
+
+
 console.log('The Iron Yard Rocks Mah Sahks');
 var arrayOne = ["GHOST","VAMPIRE", "WITCH", "SKELETON","ZOMBIE", "WEREWOLF","GHOUL","GOBLIN", "MUMMY"];
 var arrayTwo;
@@ -12,7 +14,7 @@ griff.size = function(thing){
   console.log(thing.length);
 };
 
-griff.size(arrayOne)
+
 
 //is equal?
 griff.isEqual = function(a, b){
@@ -23,9 +25,6 @@ griff.isEqual = function(a, b){
   }
 };
 
-griff.isEqual(two, three)
-
-griff.isEqual(two, dos)
 
 
 //empty
@@ -37,8 +36,6 @@ griff.emptyItIs = function(thing){
     return false && console.log("WE'VE GOT SURVIVORS!!!");
   }
 };
-griff.emptyItIs(arrayTwo);
-griff.emptyItIs(arrayOne) ; //why doesn't this work?
 
 
 
@@ -53,5 +50,3 @@ griff.isItInThere = function(object, thing){
     }
   })
 };
-griff.isItInThere(arrayOne, "GHOST");
-griff.isItInThere(arrayOne, "bunnywabbit");
