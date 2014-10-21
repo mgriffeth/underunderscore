@@ -16,3 +16,4 @@ var dos = 2;
 | griff.isEqual(a, b) | checks to see if to parameters are equal |
 | griff.emptyItIs(array) | checks to see if an array is empty |
 | griff.isItInThere(array) | check to see if an array contains the specifies parameter |
+| griff.greeting() | Gives you a nice greeting |
