@@ -50,3 +50,10 @@ griff.isItInThere = function(object, thing){
     }
   })
 };
+
+
+//greeting
+
+griff. greeting = function(){
+  alert("WELL HELLO THERE");
+};
